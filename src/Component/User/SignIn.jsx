@@ -4,7 +4,7 @@ import UsePageTitle from '../UsePageTitle'
 import {useFormik} from 'formik'
 import * as yup from 'yup';
 
-const SignUp = () => {
+const SignIn = () => {
   UsePageTitle("SignUp")
 
 
@@ -88,4 +88,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default SignIn
