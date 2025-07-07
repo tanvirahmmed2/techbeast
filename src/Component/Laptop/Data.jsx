@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import { laptops } from './Datas';
+import UsePageTitle from '../UsePageTitle';
 
 const Data = () => {
   const { title } = useParams();
   const [laptop, setLaptop] = useState(null);
+  
+
+  UsePageTitle(title)
 
   useEffect(() => {
     const foundLaptop = laptops.find((data) => data.title === title);
@@ -22,7 +26,7 @@ const Data = () => {
       <img src={image} alt={title} className='w-[400px] border-2' />
       <div className='w-full text-2xl flex flex-row gap-20 items-center justify-center'>
         <h1>{title}</h1>
-        <h1>Price: {price}</h1>
+        <h1>Price: ${price}</h1>
       </div>
       <p className='text-center mt-4 w-[60%]'>{specs}</p>
     </div>

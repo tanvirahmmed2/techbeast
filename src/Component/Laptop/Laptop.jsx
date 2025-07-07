@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
+import UsePageTitle from '../UsePageTitle'
 
 
 import { laptops } from './Datas'
 const Laptop = () => {
+    UsePageTitle("laptops")
     const [laptopdatas, setLaptopDatas] = useState(laptops);
 
     return (

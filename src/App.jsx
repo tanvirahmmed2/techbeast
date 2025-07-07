@@ -8,6 +8,7 @@ import NavBar from './Component/NavBar';
 import Data from './Component/Laptop/Data';
 import Home from './Home';
 import Laptop from './Component/Laptop/Laptop';
+import SignUp from './Component/User/SignUp';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/laptop' element={<Laptop />} />
           <Route path='/laptop/:title' element={<Data/>} />
+          <Route path='/signup' element={<SignUp/>}/>
         </Routes>
       </div>
 

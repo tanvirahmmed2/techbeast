@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import {Link} from 'react-router-dom'
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
+import UsePageTitle from './Component/UsePageTitle';
+
+
+
 
 import laptopImg from './Images/pexels-morningtrain-18105.jpg'
 import speakeImg from './Images/pexels-caio-1279365.jpg'
@@ -10,6 +14,8 @@ import webcamImg from './Images/pexels-jakubzerdzicki-24347621.jpg'
 import Laptop from './Component/Laptop/Laptop';
 
 const Home = () => {
+
+UsePageTitle("Home")
 
   const [intro, setIntro]= useState(true);
   useEffect(()=>{

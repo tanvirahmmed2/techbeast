@@ -35,7 +35,7 @@ const NavBar = () => {
                 <div className='w-auto h-12 flex flex-row items-center justify-center gap-2'>
 
                     <Link to='/cart' className='text-xl w-12 items-center h-12 flex justify-center hover:border-b-2 cursor-pointer'><FaShoppingCart /></Link>
-                    <Link to='/login' className='text-xl w-12 items-center h-12 flex justify-center hover:border-b-2 cursor-pointer'><FaRegUser /></Link>
+                    <Link to='/signup' className='text-xl w-12 items-center h-12 flex justify-center hover:border-b-2 cursor-pointer'><FaRegUser /></Link>
 
                 </div>
             </div>
