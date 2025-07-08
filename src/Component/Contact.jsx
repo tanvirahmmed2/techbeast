@@ -1,11 +1,28 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import UsePageTitle from './UsePageTitle'
+import axios from "axios"
 
 const Contact = () => {
-  return (
-    <div>
-      hello
-    </div>
-  )
+    UsePageTitle("Contact")
+    const [user, setUser] = useState([])
+    useEffect(() => {
+         const getallUser= async ()=>{
+           const response= await axios.get("http://localhost:3000/user")
+           setUser(response.data)
+           console.log(user);
+           
+         }
+
+    }, [])
+
+    return (
+        <div>
+
+
+
+
+        </div>
+    )
 }
 
 export default Contact

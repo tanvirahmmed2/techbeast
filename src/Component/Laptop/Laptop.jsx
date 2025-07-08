@@ -20,7 +20,7 @@ const Laptop = () => {
                             <h1>${price}</h1>
                             <h1 className='font-bold'>{title}</h1>
                             
-                            <Link to={`/laptop/${title}`} state={{ id, title, specs, price, image }} className='text-blue-500 hidden group-hover:flex'>show more</Link>
+                            <Link to={`/laptop/${title}`} state={{ id, title, specs, price, image }} className='text-blue-500 text-sm'>show more</Link>
                         </div>
 
                     </div>
