@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaCaretUp, FaRegUser, FaShoppingCart } from "react-icons/fa";
+import {  FaRegUser, FaShoppingCart } from "react-icons/fa";
 
 const NavBar = () => {
     return (
@@ -14,7 +14,7 @@ const NavBar = () => {
                 <div className='md:flex flex-row w-auto h-12 items-center justify-center gap-2 group hidden'>
                     <a href="/" className='px-4 h-12 flex gap-4 text-[17px] flex-row items-center justify-center hover:border-b-2 cursor-pointer '>Home</a>
                     <div className='h-12 w-full group/item1 relative text-[17px]'>
-                        <p className='px-4 h-12 flex gap-4 text-[17px] flex-row items-center justify-center hover:border-b-2 cursor-pointer '>Product <FaCaretUp/></p>
+                        <p className='px-4 h-12 flex gap-4 text-[17px] flex-row items-center justify-center hover:border-b-2 cursor-pointer '>Product </p>
                         <div className='absolute flex-col w-[100px] text-[17px] items-center justify-center group-hover/item1:flex hidden text-black'>
                             <Link to='/laptop'   className='hover:scale-110  px-2 py-2'>Laptop</Link>
                             <Link to='/Speaker'  className='hover:scale-110  px-2 py-2'>Speaker</Link>
@@ -25,7 +25,7 @@ const NavBar = () => {
 
                     </div>
                     <div>
-                        <p className='px-4 h-12 flex gap-4 text-[17px] flex-row items-center justify-center hover:border-b-2 cursor-pointer '>Service <FaCaretUp/></p>
+                        <p className='px-4 h-12 flex gap-4 text-[17px] flex-row items-center justify-center hover:border-b-2 cursor-pointer '>Service </p>
                         <div>
 
                         </div>
