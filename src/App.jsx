@@ -11,6 +11,7 @@ import Laptop from './Component/Laptop/Laptop';
 import SignUp from './Component/User/SignUp';
 import SignIn from './Component/User/SignIn';
 import Contact from './Component/Contact';
+import Footer from './Component/Footer';
 
 const App = () => {
   return (
@@ -26,7 +27,7 @@ const App = () => {
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </div>
-
+      <Footer/>
     </div>
   )
 }

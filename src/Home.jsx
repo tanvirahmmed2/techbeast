@@ -13,6 +13,8 @@ import accessoriesImg from './Images/pexels-lum3n-44775-399161.jpg'
 import webcamImg from './Images/pexels-jakubzerdzicki-24347621.jpg'
 import Laptop from './Component/Laptop/Laptop';
 
+
+
 const Home = () => {
 
 UsePageTitle("Home")
@@ -87,6 +89,9 @@ UsePageTitle("Home")
         
       </div>
       <Laptop/>
+
+
+      
 
     </div>
   )

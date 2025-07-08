@@ -17,7 +17,7 @@ const Laptop = () => {
                     return <div key={id} className='group border-2 w-[250px] h-[300px] rounded-lg bg-gray-200 relative overflow-hidden'>
                         <img src={image} alt={title} className='w-full h-[300px]' />
                         <div className='px-4 absolute bottom-2 w-full flex flex-col items-center justify-center'>
-                            <h1>${price}</h1>
+                            <h1 className='text-red-500 font-bold'>${price}</h1>
                             <h1 className='font-bold'>{title}</h1>
                             
                             <Link to={`/laptop/${title}`} state={{ id, title, specs, price, image }} className='text-blue-500 text-sm'>show more</Link>
