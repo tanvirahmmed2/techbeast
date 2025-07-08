@@ -12,10 +12,11 @@ import SignUp from './Component/User/SignUp';
 import SignIn from './Component/User/SignIn';
 import Contact from './Component/Contact';
 import Footer from './Component/Footer';
+import Cart from './Component/Cart';
 
 const App = () => {
   return (
-    <div className='w-full h-auto overflow-x-hidden  font-serif '>
+    <div className='w-full h-auto overflow-x-hidden '>
       <NavBar />
       <div className='mt-12 p-4'>
         <Routes>
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/signup' element={<SignUp/>}/>
           <Route path='/signin' element={<SignIn/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/cart' element={<Cart/>}/>
         </Routes>
       </div>
       <Footer/>

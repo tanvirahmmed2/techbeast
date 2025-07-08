@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {  useParams } from 'react-router-dom';
 import { laptops } from './Datas';
 import UsePageTitle from '../UsePageTitle';
+import Laptop from './Laptop';
 
 const Data = () => {
   const { title } = useParams();
@@ -29,6 +30,7 @@ const Data = () => {
         <h1>Price: ${price}</h1>
       </div>
       <p className='text-center mt-4 w-[60%]'>{specs}</p>
+      <div className='w-full h-auto'><Laptop/></div>
     </div>
   );
 };

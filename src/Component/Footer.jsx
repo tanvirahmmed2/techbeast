@@ -22,6 +22,7 @@ const Footer = () => {
                     <Link to='/laptop'   className='hover:scale-110  px-2 '>Laptop</Link>
                     <Link to='/Speaker'  className='hover:scale-110  px-2 '>Speaker</Link>
                     <Link to='/security' className='hover:scale-110  px-2 '>Security</Link>
+                    <Link to='/accessories' className='hover:scale-110  px-2 '>Accessories</Link>
 
 
                 </div>
