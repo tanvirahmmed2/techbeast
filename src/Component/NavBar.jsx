@@ -12,7 +12,7 @@ const NavBar = () => {
 
 
                 <div className='md:flex flex-row w-auto h-12 items-center justify-center gap-2 group hidden'>
-                    <a href="/" className='px-4 h-12 flex gap-4 text-[17px] flex-row items-center justify-center hover:border-b-2 cursor-pointer '>Home</a>
+                    <Link to="/" className='px-4 h-12 flex gap-4 text-[17px] flex-row items-center justify-center hover:border-b-2 cursor-pointer '>Home</Link>
                     <div className='h-12 w-full group/item1 relative text-[17px]'>
                         <p className='px-4 h-12 flex gap-4 text-[17px] flex-row items-center justify-center hover:border-b-2 cursor-pointer '>Product </p>
                         <div className='absolute flex-col w-[100px] text-[17px] items-center justify-center group-hover/item1:flex hidden text-black'>
