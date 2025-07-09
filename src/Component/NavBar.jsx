@@ -7,7 +7,7 @@ const NavBar = () => {
         <nav className='w-full h-12 fixed z-50 '>
             <div className='w-full h-12 px-6 flex flex-row items-center justify-between bg-gray-950 text-white relative'>
                 <div>
-                    <Link to='./' className='text-xl font-bold no-underline'>Tech Beast</Link>
+                    <Link to='/' className='text-xl font-bold no-underline'>Tech Beast</Link>
                 </div>
 
 
