@@ -72,7 +72,7 @@ UsePageTitle("Home")
       {intro && <div className='w-full h-[50vh] md:h-[93vh] flex flex-col items-center justify-center '>
 
         <motion.p initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }}  className='md:text-9xl  font-extrabold text-6xl'>Build Your</motion.p>
-        <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 1 }}  className='md:text-9xl  font-extrabold text-6xl'>Your</motion.p>
+        <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1}} transition={{ duration: 2 }}  className='md:text-9xl text-red-600  font-extrabold text-6xl'>Ultimate</motion.p>
         <motion.p initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className='md:text-9xl  font-extrabold text-6xl'>Dream</motion.p>
 
       </div> }
