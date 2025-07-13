@@ -15,7 +15,7 @@ const NavBar = () => {
                     <Link to="/" className='px-4 h-12 flex gap-4 text-[17px] flex-row items-center justify-center hover:border-b-2 cursor-pointer '>Home</Link>
                     <div className='h-12 w-full group/item1 relative text-[17px]'>
                         <p className='px-4 h-12 flex gap-4 text-[17px] flex-row items-center justify-center hover:border-b-2 cursor-pointer '>Product </p>
-                        <div className='absolute flex-col w-[100px] text-[17px] items-center justify-center group-hover/item1:flex hidden text-black'>
+                        <div className='absolute flex-col w-[100px] text-[17px] items-center justify-center group-hover/item1:flex hidden text-black bg-white shadow-xl border-2'>
                             <Link to='/laptop'   className='hover:scale-110  px-2 py-2'>Laptop</Link>
                             <Link to='/Speaker'  className='hover:scale-110  px-2 py-2'>Speaker</Link>
                             <Link to='/security' className='hover:scale-110  px-2 py-2'>Security</Link>

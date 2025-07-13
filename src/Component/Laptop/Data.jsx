@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import {useParams } from 'react-router-dom';
 import { laptops } from './Datas';
 import UsePageTitle from '../UsePageTitle';
 import Laptop from './Laptop';
@@ -7,6 +7,10 @@ import Laptop from './Laptop';
 const Data = () => {
   const { title } = useParams();
   const [laptop, setLaptop] = useState(null);
+
+
+
+  
 
 
   UsePageTitle(title)
@@ -31,7 +35,7 @@ const Data = () => {
       </div>
       <div className=''>
         {specs.map((spec) => (
-          <p className='inline-block mx-4' key={spec.iindex}><li>{spec}</li></p>
+          <p className='inline-block mx-4' key={spec.index}><li>{spec}</li></p>
         ))}
       </div>
 
