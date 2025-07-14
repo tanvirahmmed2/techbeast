@@ -3,7 +3,11 @@ import { useNavigate } from 'react-router-dom'
 
 import { FaCaretLeft } from "react-icons/fa";
 
+
+import UsePageTitle from './UsePageTitle'
+
 const Cart = () => {
+  UsePageTitle("Cart")
     const navigate= useNavigate()
     const goback=()=>{
         navigate(-1)

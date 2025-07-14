@@ -1,13 +1,12 @@
 import React from 'react'
-
 import { useNavigate } from 'react-router-dom'
 
 import UsePageTitle from './UsePageTitle'
 
 import { FaCaretLeft } from "react-icons/fa";
 
-const Contact = () => {
-    UsePageTitle("Contact")
+const Service = () => {
+    UsePageTitle("Service")
     
 
     const navigate= useNavigate()
@@ -21,4 +20,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Service
